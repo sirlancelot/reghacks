@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+; ==============================================================================
+; Disable Bing in the Windows 10 Start Menu
+;
+; See: https://www.howtogeek.com/224159/how-to-disable-bing-in-the-windows-10-start-menu/
+; ==============================================================================
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"DisableSearchBoxSuggestions"=dword:00000001
