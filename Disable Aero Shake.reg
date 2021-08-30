@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+; ==============================================================================
+; Disable Aero Shake
+;
+; See: https://www.howtogeek.com/howto/windows-7/disable-aero-shake-in-windows-7/
+; ==============================================================================
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"DisallowShaking"=dword:00000001
+
