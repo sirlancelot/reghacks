@@ -1,9 +1,11 @@
 Windows Registry Editor Version 5.00
 ; ==============================================================================
-; Disable Caps Lock
+; Disable Caps Lock (Remap to Right Alt)
 ;
-; See: https://windowsloop.com/disable-caps-lock-key-on-windows-10/#registry
+; **Requires restart**
+;
+; See: https://superuser.com/a/1407559/1431
 ; ==============================================================================
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
-"Scancode Map"=hex:00,00,00,00,00,00,00,00,02,00,00,00,00,00,3a,00,00,00,00,00
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,02,00,00,00,38,e0,3a,00,00,00,00,00
