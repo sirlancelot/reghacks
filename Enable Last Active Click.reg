@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+; ==============================================================================
+; Switch Windows with a Single Click on the Taskbar
+;
+; See: https://www.howtogeek.com/howto/16334/make-the-taskbar-buttons-switch-to-the-last-active-window-in-windows-7/
+; ==============================================================================
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"LastActiveClick"=dword:00000001
