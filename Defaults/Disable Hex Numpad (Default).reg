@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+; ==============================================================================
+; Enable Hexidecimal compatibility for Numpad character entry
+;
+; See: https://www.youtube.com/watch?v=LBcPceDxfCA
+; ==============================================================================
+
+[HKEY_CURRENT_USER\Control Panel\Input Method]
+"EnableHexNumpad"="1"
